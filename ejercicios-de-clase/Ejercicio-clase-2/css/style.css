@@ -1,0 +1,51 @@
+/*  */
+h1{
+    color: red;
+    font-size: small;
+}
+/*selector de id*/
+h2 {
+    color: rgb(95, 95, 161);
+    font-size: 20px;
+}
+/*selector de id*/
+#sub {
+    color: blue;
+    font-size: 20px;
+}
+/*selector de clase*/
+p{
+    color: aquamarine;
+    font-size: medium;
+}
+.paragraph {
+    color: blueviolet;
+    font-size: larger;
+}
+/*selector descendente*/
+.secondary-container .MainText{
+    color: crimson;
+    font-size: 20px;
+}
+.secondary-container{
+    color: darkblue;
+}
+/*Selector de atributo*/
+input[type='text']{
+    border: 4px solid cornflowerblue;
+    font-size: 20px;
+}
+/*Selector hijo directo*/
+ul > li{
+    border: 5px dotted yellow;
+    font-size: 20px;
+}
+/*Selector hermanos directo*/
+.main-sub-text+h3 {
+    color: violet;
+}
+
+/*Selector hermanos directo*/
+.main-sub-text+h3 {
+    color: rgb(117, 161, 35);
+}
