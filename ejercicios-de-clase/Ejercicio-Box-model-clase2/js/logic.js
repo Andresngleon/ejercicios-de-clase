@@ -10,4 +10,17 @@ var paragraphListByClass = document.getElementsByClassName('paragraph')
 console.log('getElementsByTagName',paragraphList);
 
 //como agregar css a un elemento
-element.classList.add(title)
+element.classList.add('title');
+let btn = document.getElementById('btn');
+btn.addEventListener('click', changeActive)
+console.log("btn", btn)
+
+
+function changeActive(){
+    let paragraph = document.getElementsByClassName('g-text')
+       for (let i=0; i<array.length; i++){
+        console.log('hola');
+    }
+}
+
+
