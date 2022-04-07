@@ -20,7 +20,14 @@ function changeActive(){
     let paragraph = document.getElementsByClassName('g-text')
        for (let i=0; i<array.length; i++){
         console.log('hola');
+        if(paragraphListText[i].classList.contains('active')){
+            paragraphListText[i].classList.remove('active')
+        else
+        paragraphListText[i].classList.('active')
+        }
     }
 }
+
+
 
 
