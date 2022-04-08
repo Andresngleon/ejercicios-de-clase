@@ -37,13 +37,9 @@ li{
 }
 
 h3{
-  margin-left: 22%;
+  margin-left: 2.5%;
   display: flex;
   justify-content: center;
   align-items: center;
   align-self: auto;
-}
-.navbar {
-    display: flex;
-    text-align: center;
 }
