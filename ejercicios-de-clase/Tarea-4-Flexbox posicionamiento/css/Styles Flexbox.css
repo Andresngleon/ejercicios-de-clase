@@ -1,0 +1,49 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-content: center;
+    align-items: stretch;
+}
+.container-a{
+    flex-basis: 30%;
+    max-width: 250px;
+    max-height: 500px;
+    margin: 0.4%;
+    flex-direction: column;
+    text-align: center;
+}
+.container-b{
+    flex-basis: 30%;
+    max-width: 250px;
+    max-height: 500px;
+    margin: 0.4%;
+    flex-direction: column;
+    text-align: center;
+}
+.container-c{
+    flex-basis: 30%;
+    max-width: 250px;
+    max-height: 500px;
+    margin: 0.4%;
+    flex-direction: column;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    text-align: center;
+    list-style-position: inside;
+}
+
+h3{
+  margin-left: 22%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: auto;
+}
+.navbar {
+    display: flex;
+    text-align: center;
+}
