@@ -1,0 +1,17 @@
+{
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.renderControlCharacters": true,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "./css"
+        }
+    ],
+    "files.associations": {
+        "*.scss": "css"
+    },
+    "editor.formatOnSave": true
+}
