@@ -1,0 +1,52 @@
+.contenedor-secundario .titulo, .contenedor-terciario .titulo, .tarjetas-secundario .item .h2 {
+  font-size: 35px;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.contenedor-principal {
+  color: #f8930e;
+}
+
+.contenedor-padre .contenedor-hijo p {
+  color: #f8930e;
+}
+
+.contenedor-secundario .titulo {
+  color: #0e6cf8;
+}
+
+.contenedor-terciario .titulo {
+  color: #e0e40a;
+}
+
+.tarjetas-primario {
+  background-color: #7519aa;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.tarjetas-secundario {
+  background-color: white;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.tarjetas-secundario .item {
+  background-color: #01f7ff;
+  color: black;
+  flex-grow: 1;
+  padding: 10px;
+  margin: 5px 7px;
+}
+
+.tarjetas-secundario .item .h2 {
+  font-weight: bold;
+  color: #e0e40a;
+}
+/*# sourceMappingURL=base.css.map */
