@@ -1,0 +1,59 @@
+.container
+    .title
+        @extend %titulos
+        color: $titulos-secundarios
+
+.text-secondary
+    .list-group
+        background-color: rgb(0, 0, 0)
+
+.list-group-flush
+    .list-group-item
+        background-color: rgb(255, 255, 255)
+        color: rgb(0, 0, 0)
+
+.list-group-flush2
+    .list-group-item
+        background-color: rgb(0, 0, 0)
+        color: rgb(255, 255, 255)
+
+.list-group-flush3
+    .list-group-item
+        background-color: rgb(206, 212, 218)
+        color: rgb(0, 0, 0)
+
+.navbar-dark
+    .navbar-nav
+        .nav-item
+            .nav-link
+                color: rgb(255, 255, 255)
+
+.navbar-dark
+    background: rgb(0, 0, 0)
+    color: color: rgb(255, 255, 255)
+
+.bg-dark
+    background: rgb(0, 0, 0)
+
+.bold-title-text
+    color: rgb(0,0,0)
+    size: 3rems
+
+.simple-subtitle-text
+    color: rgb(0,0,0)
+
+.container-fluid2
+    font-size: 4rem
+
+.button
+    .btn-light2
+        background: rgb(255, 255, 255)
+        border: 1px solid #ced4da
+        border-radius: 0.5rem
+
+    .btn-pink
+        @include button-variant($pink-500)
+        background: $pink-500
+        border: 1px solid #ced4da
+        border-radius: 0.5rem
+        color: rgb(255, 255, 255)

@@ -1,0 +1,93 @@
+.container .title {
+  font-size: 3rem;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.tarjetas-primario {
+  background-color: #c0392b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.tarjetas-primario .item {
+  background-color: #34495e;
+  color: white;
+  flex-grow: 0;
+  margin: 20px;
+}
+
+.tarjetas-secundario {
+  background-color: #27ae60;
+  color: white;
+  display: flex;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+.tarjetas-secundario .item {
+  background-color: #7f8c8d;
+  color: #2c3e50;
+  flex-grow: 1;
+  margin: 10px;
+  text-align: center;
+}
+
+.container .title {
+  color: black;
+}
+
+.text-secondary .list-group {
+  background-color: black;
+}
+
+.list-group-flush .list-group-item {
+  background-color: white;
+  color: black;
+}
+
+.list-group-flush2 .list-group-item {
+  background-color: black;
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.bg-dark {
+  background: black;
+}
+
+.color-gray-container {
+  background-color: black;
+  border: 1px solid black;
+}
+
+.color-blue-container {
+  background-color: #48ff00;
+  border: 1px solid #2bff00;
+}
+
+.color-red-container {
+  background-color: #d0ff00;
+  border: 1px solid #d0ff00;
+}
+
+.color-yellow-container {
+  background-color: #ebffa1;
+  border: 1px solid rgba(255, 0, 0, 0);
+}
+
+.color-black-container {
+  background-color: black;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=base.css.map */
