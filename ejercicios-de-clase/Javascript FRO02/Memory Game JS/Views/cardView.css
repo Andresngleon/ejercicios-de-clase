@@ -1,0 +1,22 @@
+.cardView_mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--card-view-normal);
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    margin-bottom: 5px;
+    user-select: none;
+    flex-wrap: wrap;
+}
+
+.cardView_disabled {
+    pointer-events: none;
+
+}
+
+.cardView_discovered {
+    pointer-events: none;
+    background-color: var(--card-view-discovered);
+}

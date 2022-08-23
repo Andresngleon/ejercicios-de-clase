@@ -1,0 +1,61 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(14, 55, 78);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.resultadoLbl {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+
+}
+
+input {
+    flex-wrap: wrap;
+    margin-top: 10px;
+    width: 30%;
+    height: 35px;
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    flex-wrap: wrap;
+    width: 30%;
+    border-style: none;
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: rgb(240, 141, 28);
+    outline: none;
+}
+
+.container {
+    height: 100vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.resultadoLblconDescuento {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.resultadoLbl {
+    color: rgb(255, 255, 255);
+}

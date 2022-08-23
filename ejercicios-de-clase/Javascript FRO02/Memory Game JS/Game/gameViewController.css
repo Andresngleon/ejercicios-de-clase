@@ -1,0 +1,44 @@
+.gameViewController {}
+
+.gameViewController_contentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gameViewController_hudContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(238, 194, 113);
+    height: 60px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.gameViewController_cardsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.gameViewController_clicksLbl {
+    margin-left: 5px;
+    font-size: 18px;
+
+}
+
+.gameViewController_timeLbl {
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.gameViewController_resetBtn {
+    width: 10%;
+    margin-right: 5px;
+
+}
